@@ -7,8 +7,8 @@ import 'package:thingsboard_app/utils/services/local_database/i_local_database_s
 class EndpointService implements IEndpointService {
   EndpointService({required this.databaseService});
 
-  static const northAmericaHost = 'https://thingsboard.cloud';
-  static const europeHost = 'https://eu.thingsboard.cloud';
+  static const northAmericaHost = 'https://thingsboard.stecom.vn';
+  static const europeHost = 'https://thingsboard.stecom.vn';
 
   final ILocalDatabaseService databaseService;
   String? _cachedEndpoint;
