@@ -14,7 +14,11 @@ class EndpointService implements IEndpointService {
   String? _cachedEndpoint;
   final _notifierValue = ValueNotifier<String?>(UniqueKey().toString());
   final _defaultEndpoints = <String>{
-    ThingsboardAppConstants.thingsBoardApiEndpoint,
+    ThingsboardAppConstants.thingsBoardApiEndpoint.isNotEmpty 
+        ? ThingsboardAppConstants.thingsBoardApiEndpoint 
+        : 'https://thingsboard.stecom.vn',
+    northAmericaHost,
+    europeHost,
   };
 
   @override
@@ -40,7 +44,9 @@ class EndpointService implements IEndpointService {
   Future<String> getEndpoint() async {
     _cachedEndpoint ??= await databaseService.getSelectedEndpoint();
 
-    return _cachedEndpoint ?? ThingsboardAppConstants.thingsBoardApiEndpoint;
+    return _cachedEndpoint ?? (ThingsboardAppConstants.thingsBoardApiEndpoint.isNotEmpty 
+        ? ThingsboardAppConstants.thingsBoardApiEndpoint 
+        : 'https://thingsboard.stecom.vn');
   }
 
   @override
@@ -54,7 +60,9 @@ class EndpointService implements IEndpointService {
 
   @override
   String getCachedEndpoint() {
-    return _cachedEndpoint ?? ThingsboardAppConstants.thingsBoardApiEndpoint;
+    return _cachedEndpoint ?? (ThingsboardAppConstants.thingsBoardApiEndpoint.isNotEmpty 
+        ? ThingsboardAppConstants.thingsBoardApiEndpoint 
+        : 'https://thingsboard.stecom.vn');
   }
 
   @override

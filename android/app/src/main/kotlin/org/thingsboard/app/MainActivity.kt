@@ -1,4 +1,4 @@
-package org.thingsboard.app
+package somethingiot.stecom.app
 
 import androidx.annotation.NonNull
 import io.flutter.embedding.android.FlutterActivity

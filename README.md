@@ -1,18 +1,64 @@
-## [ThingsBoard Mobile Application](https://thingsboard.io/products/mobile/) is an open-source project based on [Flutter](https://flutter.dev/)
-Powered by [ThingsBoard](https://thingsboard.io) IoT Platform
+📄 Chính sách bảo mật (Privacy Policy)
+Tiếng Việt
 
-Build your own IoT mobile application **with minimum coding efforts**
+Chính sách bảo mật cho Ứng dụng ThingsBoard Mobile
 
-## Please be informed the Web platform is not supported, because it's a part of our main platform!
+Ứng dụng này được phát triển bởi [Tên công ty/bạn] (“Chúng tôi”). Chúng tôi tôn trọng quyền riêng tư của người dùng và cam kết bảo vệ dữ liệu cá nhân của bạn.
 
-## Resources
+1. Quyền truy cập được sử dụng
 
-- [Getting started](https://thingsboard.io/docs/mobile/getting-started/) - learn how to set up and run your first IoT mobile app
-- [Customize your app](https://thingsboard.io/docs/mobile/customization/) - learn how to customize the app
-- [Publish your app](https://thingsboard.io/docs/mobile/release/) - learn how to publish app to Google Play or App Store
+Camera: Ứng dụng có thể yêu cầu quyền sử dụng camera của thiết bị để quét mã QR hoặc chụp ảnh.
 
-## Live demo app
+Dữ liệu từ camera không được lưu trữ trên máy chủ của chúng tôi và không được chia sẻ cho bên thứ ba. Tất cả dữ liệu được xử lý cục bộ trên thiết bị.
 
-To be familiar with common app features try out our ThingsBoard Live mobile application available on Google Play and App Store
-- [Get it on Google Play](https://play.google.com/store/apps/details?id=org.thingsboard.demo.app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
-- [Download on the App Store](https://apps.apple.com/us/app/thingsboard-live/id1594355695?itsct=apps_box_badge&amp;itscg=30200)
+2. Thu thập và sử dụng dữ liệu
+
+Ứng dụng không thu thập thông tin cá nhân như tên, email, số điện thoại nếu bạn không chủ động cung cấp.
+
+Các dữ liệu được quét từ QR code chỉ dùng để đăng nhập và kết nối với hệ thống ThingsBoard mà bạn lựa chọn.
+
+3. Chia sẻ dữ liệu
+
+Chúng tôi không chia sẻ thông tin người dùng cho bất kỳ bên thứ ba nào.
+
+4. Bảo mật
+
+Dữ liệu của bạn luôn được xử lý trong môi trường an toàn và tuân thủ các quy định hiện hành về bảo mật thông tin.
+
+5. Liên hệ
+
+Nếu bạn có bất kỳ câu hỏi nào về chính sách bảo mật này, vui lòng liên hệ qua:
+📧 Email: huyvuhp14@gmail.com
+🌐 Website: https://thingsboard.stecom.vn/
+
+English
+
+Privacy Policy for ThingsBoard Mobile Application
+
+This application is developed by [Your Company/You] (“We”). We respect the privacy of our users and are committed to protecting your personal data.
+
+1. Permissions Used
+
+Camera: The application may request access to the device camera for QR code scanning or image capture.
+
+Camera data is not stored on our servers and is not shared with any third party. All processing is done locally on the device.
+
+2. Data Collection and Use
+
+The application does not collect personal information such as name, email, or phone number unless explicitly provided by you.
+
+Data obtained from QR codes is used only for login and connection with the ThingsBoard system you select.
+
+3. Data Sharing
+
+We do not share any user data with third parties.
+
+4. Security
+
+Your data is always processed in a secure environment and in compliance with applicable data protection regulations.
+
+5. Contact Us
+
+If you have any questions about this Privacy Policy, please contact us at:
+📧 Email: huyvuhp14@gmail.com
+🌐 Website: https://thingsboard.stecom.vn/
