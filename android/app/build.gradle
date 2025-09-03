@@ -32,7 +32,7 @@ def flutterVersionCode = localProperties.getProperty('flutter.versionCode') ?: '
 def flutterVersionName = localProperties.getProperty('flutter.versionName') ?: '1.0'
 
 def customScheme      = getDartDefineValue('thingsboardOAuth2CallbackUrlScheme') ?: 'somethingiot.stecom.app.auth'
-def customLabel       = getDartDefineValue('androidApplicationName') ?: 'Thingsboard app'
+def customLabel       = getDartDefineValue('androidApplicationName') ?: 'STEIotApp'
 def appLinksUrlHost   = getDartDefineValue('appLinksUrlHost') ?: 'thingsboard.stecom.vn'
 def webPathPrefix     = getDartDefineValue('webPathPrefix') ?: '/api/noauth/qr'
 def appLinksUrlScheme = getDartDefineValue('appLinksUrlScheme') ?: 'https'
